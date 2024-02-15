@@ -1,4 +1,4 @@
-23515563734879599
+23529564794814160
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -257,6 +257,13 @@ CR2032 retainer clip, SMT ( http://www.farnell.com/datasheets/1505853.pdf )
 BC-2001 CR2032 2032 Battery Holder
 0
 3
+2
+Battery
+BatteryHolder_Renata_SMTU2032-LF_1x2032
+https://www.renata.com/fr/downloads/?product=smtu2032-lf&fileid=6a9833a4d49dfb7b550194fe0f
+Renata SMT battery holder coin cell 2032
+0
+2
 2
 Battery
 BatteryHolder_Seiko_MS621F
@@ -1400,6 +1407,20 @@ Tactile Switch
 3
 3
 Button_Switch_SMD
+SW_SPST_CK_KMS2xxG
+Microminiature SMT Side Actuated, 4.2 x 2.8 x 1.42mm, https://www.ckswitches.com/media/1482/kms.pdf
+Switch SPST KMS2
+0
+5
+3
+Button_Switch_SMD
+SW_SPST_CK_KMS2xxGP
+Microminiature SMT Side Actuated, 4.2 x 2.8 x 1.42mm with pegs, https://www.ckswitches.com/media/1482/kms.pdf
+Switch SPST KMS2
+0
+5
+3
+Button_Switch_SMD
 SW_SPST_CK_KXT3
 https://www.ckswitches.com/media/1465/kxt3.pdf
 Switch SPST KXT3
@@ -2037,6 +2058,13 @@ switch single-pole double-throw spdt ON-ON illuminated LED
 6
 6
 Button_Switch_THT
+SW_NKK_NR01
+NKK Switches NR01 series rotary switch, 10.7 x 10.7mm. https://www.nkkswitches.com/pdf/NR01%20Rotaries.pdf
+NKK NR01 SP3T SP4T SP5T
+0
+10
+7
+Button_Switch_THT
 SW_PUSH-12mm
 SW PUSH 12mm https://www.e-switch.com/system/asset/product_line/data_sheet/143/TL1100.pdf
 tact sw push 12mm
@@ -2407,6 +2435,13 @@ Buzzer Magnetic 9mm AT-0927-TT-6-R
 0
 2
 2
+Buzzer_Beeper
+MagneticBuzzer_PUI_SMT-1028-T-2-R
+Buzzer, 2830Hz, 3.6Vpp, 90dbA@10cm, Top sound port, 10x10x3,5mm, https://api.puiaudio.com/file/612539d9-c50b-48de-88aa-b63ef8817a91.pdf
+SMT 1028
+0
+4
+3
 Buzzer_Beeper
 MagneticBuzzer_ProSignal_ABI-009-RC
 Buzzer, Elektromagnetic Beeper, Summer, 6V-DC,
@@ -9841,6 +9876,13 @@ Grove-1x04
 0
 4
 4
+Connector
+OCN_OK-01GM030-04_2x15_P0.4mm_Vertical
+Board to board connector, 2x15, 0.4mm pitch, http://www.main-soul.com/datasheet/ocn/connector/Spec_Draw_OK-01.pdf
+board-to-board
+0
+30
+30
 Connector
 SpringContact_Harwin_S1941-46R
 7.25mm SMT Multi-directional Spring Contact (T+R), https://cdn.harwin.com/pdfs/S1941R.pdf
@@ -22472,7 +22514,7 @@ connector Molex Micro-Fit_3.0 vertical
 Connector_Molex
 Molex_Micro-Fit_3.0_43045-0415_2x02_P3.00mm_Vertical
 Molex Micro-Fit 3.0 Connector System, 43045-0415 (compatible alternatives: 43045-0416, 43045-0417), 2 Pins per row (http://www.molex.com/pdm_docs/sd/430450217_sd.pdf), generated with kicad-footprint-generator
-connector Molex Micro-Fit_3.0 side entry
+connector Molex Micro-Fit_3.0 vertical
 0
 4
 4
@@ -22563,7 +22605,7 @@ connector Molex Micro-Fit_3.0 side entry
 Connector_Molex
 Molex_Micro-Fit_3.0_43045-0818_2x04-1MP_P3.00mm_Vertical
 Molex Micro-Fit 3.0 Connector System, 43045-0818 (compatible alternatives: 43045-0819, 43045-0820), 4 Pins per row (http://www.molex.com/pdm_docs/sd/430450218_sd.pdf), generated with kicad-footprint-generator
-connector Molex Micro-Fit_3.0 side entry
+connector Molex Micro-Fit_3.0 vertical
 0
 10
 9
@@ -22640,7 +22682,7 @@ connector Molex Micro-Fit_3.0 vertical
 Connector_Molex
 Molex_Micro-Fit_3.0_43045-1215_2x06_P3.00mm_Vertical
 Molex Micro-Fit 3.0 Connector System, 43045-1215 (compatible alternatives: 43045-1216, 43045-1217), 6 Pins per row (http://www.molex.com/pdm_docs/sd/430450217_sd.pdf), generated with kicad-footprint-generator
-connector Molex Micro-Fit_3.0 side entry
+connector Molex Micro-Fit_3.0 vertical
 0
 12
 12
@@ -46214,6 +46256,13 @@ RJ45 Magjack
 14
 13
 Connector_RJ
+RJ45_Bel_V895-1001-AW_Vertical
+1 Port RJ45 Magjack Vertical Connector SMD 10/100 Base-T, https://www.belfuse.com/resources/drawings/magneticsolutions/dr-mag-v895-1001-aw.pdf
+RJ45 Magjack
+0
+14
+11
+Connector_RJ
 RJ45_Cetus_J1B1211CCD_Horizontal
 1 Port RJ45 Magjack Connector Through Hole 10/100 Base-T, Cetus, used and distributed by WIZnet (https://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz550web:wiz550webds_kr:j1b1211ccd.pdf)
 RJ45 Magjack
@@ -46262,6 +46311,13 @@ RJ45 ethernet magnetic
 0
 16
 15
+Connector_RJ
+RJ45_Molex_9346520x_Horizontal
+1 Port RJ45 Magjack Connector Through Hole 10/100 Base-T, two LED, tab up
+RJ45 Magjack
+0
+14
+13
 Connector_RJ
 RJ45_Molex_0855135013_Vertical
 1 Port, RJ45, Series 85513, vertical, SMD, https://www.molex.com/pdm_docs/sd/855135013_sd.pdf
